@@ -28,35 +28,54 @@
         <div class="login-box">
 
             <div class=" login-header">
-
                 <span>Login</span>
             </div>
-        </div>
-        <form action="https://example.com/login" method="post">
-            <div class="textbox">
-                <form action="http://127.0.0.1:5500/project/booklist.html" get="" enctype="multipart/form-data"
-                    onsubmit="return login()">
-                    <div class="input-box">
-                        <input type="text" id="username" class="input-field" required>
-                        <i class="fa-solid fa-person-walking-arrow-right"></i>
-                        <label for="username" class="input-label">Usuário</label>
 
+            <form action="http://127.0.0.1:5500/project/booklist.html" get="" enctype="multipart/form-data"
+                onsubmit="return login()">
+                <div class="input-box">
+                    <input type="text" id="username" class="input-field" required>
+                    <i class="fa-solid fa-person-walking-arrow-right"></i>
+                    <label for="username" class="input-label">Usuário</label>
+
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="password" class="input-field" required>
+                    <i class="fa-solid fa-lock"></i>
+                    <label for="password" class="input-label">Senha</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me">Lembrar-me</label>
                     </div>
 
+                    <div class="forgot">
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
                     <div class="input-box">
-                        <input type="password" id="password" class="input-field" required>
-                        <i class="fa-solid fa-lock"></i>
-                        <label for="password" class="input-label">Senha</label>
+                        <input type="submit" class="input-submit" value="login">
                     </div>
 
-                    <div class="reister-box">
-                        <input type="submit" class="input-submit" value="Entrar">
+                    <div class="register-box">
                         <span> Não tem conta?<a href="#">Registre-se</a></span>
                     </div>
 
-            </div>
-        </form>
+                </div>
+            </form>
+        </div>
     </div>
+    <!--minhas redes-->
+    <a id="source-link" class="meta-link" href="www.linkedin.com/in/marcos-sabino-dev" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+    </a>
+    <a id="source-link" class="meta-link" href="https://github.com"
+        target="_blank">
+        <i class="fa-brands fa-github"></i>
+        <span>GitHub</span>
 
 </body>
 
